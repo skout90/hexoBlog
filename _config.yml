@@ -71,7 +71,19 @@ deploy:
   type: git
   repo: https://github.com/skout90/skout90.github.io
     
-# Generator Search Plugin
+# Search Generator 
 search:
     path: search.xml
     field: post
+
+# Sitemap auto generator
+sitemap:
+    path: sitemap.xml
+
+# RSS auto generator
+feed:
+  type: atom
+  path: feed.xml
+  limit: false
+  hub:
+  

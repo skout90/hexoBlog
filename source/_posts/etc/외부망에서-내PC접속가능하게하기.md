@@ -2,7 +2,7 @@
 title: 외부 네트워크에서 내 PC로 접속 가능하게 하기
 date: 2017-12-07 19:28:10
 categories:
-    - Etc
+    - etc
 ---
 
 NAT와 PAT를 알아야 하는데

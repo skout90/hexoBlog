@@ -138,17 +138,11 @@ Users테이블에서 Wallet의 userId로 질의를 한다. 0..1 : 1 의 관계�
 >
 > return this.belongsToMany(Tag, 'posts', 'userId', 'tagId')  
 
-0..1 : 다 관계, posts와 Tag를 tagId로 조인한 뒤에, where 절에 userId를 질의한다.
+posts의 userId와 tagId를 사용하여, User와 Tag를 조인한다.
 
-> SELECT  *
->
-> FROM    tags tag
->
-> ​			INNER JOIN posts pst
->
-> ​				ON  tag.id   = pst.tagId
->
-> WHERE  pst.userId  IN (사용자 아이디)
+조인할때 디폴트로 user의 id와 tag의 id를 사용한다.
+
+다른 포린키로 조인하려면, 5,6번째인자로 user의 foreignKey/tag의 foreignKey를 쓴다.
 
 ## Reference
 

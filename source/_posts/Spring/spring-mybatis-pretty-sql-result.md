@@ -47,6 +47,11 @@ log4j -> slf4j -> logback 순서대로 적용된다.
     <artifactId>logback-classic</artifactId>
     <version>1.1.3</version>
 </dependency>
+<dependency>
+    <groupId>org.bgee.log4jdbc-log4j2</groupId>
+    <artifactId>log4jdbc-log4j2-jdbc4</artifactId>
+    <version>1.16</version>  
+</dependency>
 ```
 
 

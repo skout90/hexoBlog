@@ -1,5 +1,5 @@
 ---
-title: overflow: scroll 일시 right margin이 안먹는 문제
+title: overflow scroll 일시 right margin이 안먹는 문제
 date: 2019-09-16 19:28:10
 categories:
     - CSS

@@ -5,7 +5,9 @@
 # setup
 
 > npm i -g hexo-cli
+
 > npm i
+
 > cd themes/transquilpeak && npm run build
 
 - 테마 수정시마다 아래 커맨드를 실행해야 적용됩니다.
@@ -14,4 +16,4 @@
 
 # theme info
 
-https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak
+https://github.com/skout90/hexo-theme-tranquilpeak

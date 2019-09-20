@@ -1,0 +1,26 @@
+<div class="modal">
+  <div class="modal-header">
+    <h1>Junho's Dev Wiki</h1>
+
+    <div id="site_search" class="main-content-wrap">
+        <input type="text" id="local-search-input" name="q" results="0" placeholder="검색어 입력" 
+        class="form-control input--large" autofocus="autofocus"/>
+    </div>
+  </div>
+
+  <div id="local-search-result"></div>
+  <div class="modal-header">
+      <div id="categories-archives" class="main-content-wrap">
+          <form id="filter-form" action="##"> 
+              <input name="category" type="text" class="form-control input--large"
+                      placeholder="<%= __('global.search_category')  %>" autofocus="autofocus">
+          </form> 
+          <h5 class="archive-result text-color-base text-xlarge"
+              data-message-zero="<%= __('global.categories_found.zero') %>"
+              data-message-one="<%= __('global.categories_found.one') %>"
+              data-message-other="<%= __('global.categories_found.other') %>"></h5>
+
+          <%- partial('_partial/categories-and-posts') %>
+      </div>
+  </div>
+</div>

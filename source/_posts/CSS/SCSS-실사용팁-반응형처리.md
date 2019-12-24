@@ -1,5 +1,5 @@
 ---
-title: SCSS 실사용팁 : rem 함수 처리, 색상 변수, ellipsis 확장
+title: SCSS 실사용팁 rem 함수 처리, 색상 변수, ellipsis 확장
 categories:
   - CSS
 date: 2019-10-15 18:43:13

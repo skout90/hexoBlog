@@ -64,8 +64,13 @@ server {
 
 - certbot nginx plugin 통해 SSL 인증이 자동으로된다!!
 
-> cd certbot
->
+권한 오류를 위해 certbot-auto를 `/usr/local/bin` 경로로 이동시켜주자
+
+> sudo mv certbot-auto /usr/local/bin
+
+(https://community.letsencrypt.org/t/certbot-auto-deployment-best-practices/91979)
+
+
 > certbot-auto -\-nginx -d example.com -d www.example.com
 >
 > 

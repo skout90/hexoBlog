@@ -2,7 +2,7 @@
 
 `hexo framework`를 이용한 공부한 것을 기록하고 공유하는 블로그입니다.(2019-09-20 새버전 updated)
 
-# setup
+## setup
 
 > npm i -g hexo-cli
 
@@ -14,6 +14,10 @@
 
 > cd themes/transquilpeak && npm run build
 
-# theme info
+## 블로그 포스팅 배포
+
+> npx hexo deploy -g
+
+## theme info
 
 https://github.com/skout90/hexo-theme-tranquilpeak
